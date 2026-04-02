@@ -1,0 +1,95 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                  FITNESS & CONDITIONING DATA TRACKER                         ║
+║                         QUICK REFERENCE GUIDE                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📋 COMPILE & RUN
+═══════════════════════════════════════════════════════════════════════════════
+  macOS/Linux:        ./compile.sh && ./run.sh
+  Windows:            compile.bat && run.bat
+  Manual:             javac -d bin src/**/*.java src/*.java
+                      java -cp bin Main
+
+📁 PROJECT FILES
+═══════════════════════════════════════════════════════════════════════════════
+  README.md                 - Project overview and features
+  TEAM_TASKS.md             - Detailed task breakdown for each person
+  GETTING_STARTED.md        - Quick start guide with examples
+  PROJECT_SUMMARY.md        - Complete project summary
+  QUICK_REFERENCE.txt       - This file
+
+👥 TEAM ASSIGNMENTS
+═══════════════════════════════════════════════════════════════════════════════
+  Rami:     WorkoutNode, UnbalancedBST, SinglyLinkedList
+  Cesar:    AVL rotations, insertion, balancing
+  Sarthak:  AVL deletion, range queries
+  Jarmaine: MockDataGenerator, PerformanceBenchmark, UI
+
+📊 WHAT'S IMPLEMENTED
+═══════════════════════════════════════════════════════════════════════════════
+  ✅ AVL Tree with self-balancing (4 rotation types)
+  ✅ Unbalanced BST (baseline comparison)
+  ✅ Singly Linked List (baseline comparison)
+  ✅ Mock data generation (3 patterns)
+  ✅ Performance benchmarking (nanosecond precision)
+  ✅ Interactive command-line interface
+  ✅ Range queries with date ranges
+  ✅ Search by date
+  ✅ Summary statistics
+
+🎯 NEXT STEPS FOR EACH PERSON
+═══════════════════════════════════════════════════════════════════════════════
+  1. Review your assigned files (see TEAM_TASKS.md)
+  2. Run the application and test your components
+  3. Create test cases for your code
+  4. Document your findings
+  5. Share results with team
+
+🧪 TESTING PRIORITIES
+═══════════════════════════════════════════════════════════════════════════════
+  Rami:     Test BST degradation with sequential inserts
+  Cesar:    Verify AVL balance factors stay -1, 0, or 1
+  Sarthak:  Test deletion and range query correctness
+  Jarmaine: Run benchmarks with 100, 500, 1000 entries
+
+📈 EXPECTED RESULTS (1000 entries)
+═══════════════════════════════════════════════════════════════════════════════
+  AVL Tree:         Fast (O(log n))
+  Unbalanced BST:   Slow (degrades to O(n))
+  Linked List:      Slowest (always O(n))
+
+  AVL should be 10-50x faster than the baselines!
+
+📅 TIMELINE
+═══════════════════════════════════════════════════════════════════════════════
+  Weeks 1-2:  Individual component testing
+  Weeks 3-4:  Team integration testing
+  Weeks 5-6:  Performance benchmarking
+  Weeks 7-8:  Final report and presentation
+
+💡 TIPS
+═══════════════════════════════════════════════════════════════════════════════
+  • Start with small datasets (10-100 entries) for testing
+  • Use Load Mock Data (menu option 4) to generate test data
+  • Run Benchmark (menu option 5) to see performance comparison
+  • Check GETTING_STARTED.md for code examples
+  • Review code comments for implementation details
+
+🆘 TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════════════════════
+  Compilation error:    Make sure you're in project root directory
+  ClassNotFound:        Use: java -cp bin Main
+  Date format error:    Use format: yyyy-MM-dd (e.g., 2024-03-15)
+
+📞 QUESTIONS?
+═══════════════════════════════════════════════════════════════════════════════
+  1. Check the documentation files (README, TEAM_TASKS, etc.)
+  2. Review code comments in your assigned files
+  3. Test with small examples first
+  4. Ask team members for help
+
+🎓 PROJECT STATUS: ✅ READY TO TEST!
+═══════════════════════════════════════════════════════════════════════════════
+  All code is complete and compiles successfully.
+  Each team member can now test their components.
+  Good luck! 🚀
