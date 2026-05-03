@@ -1,3 +1,5 @@
+package test;
+
 import models.WorkoutNode;
 import structures.SinglyLinkedList;
 import java.time.LocalDate;
