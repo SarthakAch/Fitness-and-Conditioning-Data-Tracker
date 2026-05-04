@@ -4,9 +4,9 @@ A high-performance fitness tracking system demonstrating the efficiency of self-
 
 ## Team Members
 - **Rami Fayad** - Foundational Structures & Baselines
-- **Cesar Felipe** - AVL Core & Balancing
+- **Cesar Felipe** -  Simulation, Benchmarking & UI
 - **Sarthak Acharya** - Advanced Tree Operations & Retrieval
-- **Jarmaine Higgs** - Simulation, Benchmarking & UI
+- **Jarmaine Higgs** - AVL Core & Balancing.
 
 ## Project Overview
 

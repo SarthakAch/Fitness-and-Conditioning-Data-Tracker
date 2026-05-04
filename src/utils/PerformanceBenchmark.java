@@ -111,10 +111,10 @@ public class PerformanceBenchmark {
      * Inner class to store benchmark results
      */
     public static class BenchmarkResult {
-        String structureName;
-        String operation;
-        int dataSize;
-        long durationNanos;
+        public String structureName;
+        public String operation;
+        public int dataSize;
+        public long durationNanos;
         
         public BenchmarkResult(String structureName, String operation, int dataSize, long durationNanos) {
             this.structureName = structureName;

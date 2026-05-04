@@ -1,22 +1,20 @@
-import ui.CommandLineInterface;
+import ui.MainWindow;
+import javax.swing.SwingUtilities;
 
 /**
  * Main - Entry point for Fitness & Conditioning Data Tracker
- * 
- * This project demonstrates the performance difference between:
- * - AVL Tree (self-balancing, O(log n) operations)
- * - Unbalanced BST (degrades to O(n) with sequential inserts)
- * - Singly Linked List (O(n) operations)
- * 
+ *
  * Team Members:
- * - Rami: WorkoutNode, UnbalancedBST, SinglyLinkedList
- * - Cesar: AVL Tree insertion, rotations, balancing
- * - Sarthak: AVL Tree deletion, range queries
- * - Jarmaine: MockDataGenerator, PerformanceBenchmark, CommandLineInterface
+ * - Rami:    WorkoutNode, SinglyLinkedList
+ * - Sarthak: UnbalancedBST
+ * - Jarmaine: AVLTree
+ * - Cesar:   UI, MockDataGenerator, PerformanceBenchmark
  */
 public class Main {
     public static void main(String[] args) {
-        CommandLineInterface cli = new CommandLineInterface();
-        cli.start();
+        SwingUtilities.invokeLater(() -> {
+            MainWindow window = new MainWindow();
+            window.setVisible(true);
+        });
     }
 }
